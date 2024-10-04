@@ -241,61 +241,13 @@ button {
 
 /*--------------------------------------------------------------------- header ---------------------------------------------------------------------*/
 
-header {
-     height: 80px;
-     background: url(/images/banner11.jpg);
-     width: 100%;
-     padding: 10px 10px;
-}
-
 header img {
-     height: 50px;
-     padding-bottom: 10px;
+     height: 80px;
+     padding-bottom: 0.5px;
 }
 
 
 /** menu section **/
-
-ul.email {
-     padding-top: 4px;
-     display: flex;
-     align-items: center;
-     justify-content: end;
-     flex-wrap: wrap;
-}
-
-ul.email li {
-     display: inline-block;
-     color: #000000;
-     padding: 0 10px;
-     font-size: 17px;
-}
-
-ul.email li:last-child {
-     padding-right: 0;
-}
-
-ul.email li a {
-     font-size: 10px;
-}
-
-ul.email li a {
-     color: #000000;
-}
-
-ul.email li i {
-     color: #000000;
-     font-size: 20px;
-     padding-right: 10px;
-}
-
-ul.email li a:hover {
-     color: #fe9a0c;
-}
-
-ul.email li img {
-     padding-right: 10px;
-}
 
 .sidepanel {
      width: 0;
@@ -311,17 +263,18 @@ ul.email li img {
 }
 
 .sidepanel a {
-     padding: 8px 8px 8px 32px;
-     text-decoration: none;
-     font-size: 25px;
+     font-size: 20px;  /* Adjust this size as needed */
+     padding: 15px 32px;  /* Adjust padding for consistency */
+     text-align: left;  /* This ensures the text aligns properly */
+     display: block;  /* Ensures each link takes up the full width */
      color: #fff;
-     display: block;
-     transition: 0.3s;
-}
-
-.sidepanel a:hover {
-     color: #fe9a0c;
-}
+     transition: color 0.3s ease-in-out;
+ }
+ 
+ .sidepanel a:hover {
+     color: #fe9a0c;  /* Change color on hover */
+ }
+ 
 
 .sidepanel .closebtn {
      position: absolute;
@@ -336,6 +289,13 @@ ul.email li img {
      color: rgb(0, 0, 0);
      border: none;
 }
+
+.openbtn img {
+     height: 20px;  /* Adjust the height to make the button smaller */
+     width: 45px;   /* Adjust the width to keep proportions */
+ }
+ 
+
 
 /** banner_main **/
 
@@ -1130,9 +1090,7 @@ ul.re_post li {
      .text-container {
        text-align: justify;
      }
-   }
-   
-   
-   
+     
+   } 
 
 /** end contact **/
